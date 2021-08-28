@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Rocketboard-Engine)(type Legacy)(uri ${KIPRJMOD}/Rocketboard-Engine.lib)(options "")(descr ""))
+)

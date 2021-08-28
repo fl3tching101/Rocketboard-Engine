@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Rocketboard-Engine)(type KiCad)(uri ${KIPRJMOD}/Rocketboard-Engine.pretty)(options "")(descr ""))
+)

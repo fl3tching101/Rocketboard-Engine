@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L072CBT6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+F https://www.st.com/resource/en/datasheet/stm32l072cb.pdf
+$ENDCMP
+#
+#End Doc Library

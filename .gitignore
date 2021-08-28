@@ -1,3 +1,4 @@
+  
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
@@ -6,12 +7,15 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
 *~
 _autosave-*
 *.tmp
-*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -23,3 +27,4 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+Rocketboard-Engine_backup.kicad_pcb
