@@ -14,36 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Rocketboard-Engine:STM32L072CBT6 IC1
-U 1 1 6125D989
-P 3500 2150
-F 0 "IC1" H 5250 2700 50  0000 L CNN
-F 1 "STM32L072CBT6" H 5200 2550 50  0000 L CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5150 2650 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32l072cb.pdf" H 5150 2550 50  0001 L CNN
-F 4 "ARM Microcontrollers - MCU 16/32-BITS MICROS" H 5150 2450 50  0001 L CNN "Description"
-F 5 "1.6" H 5150 2350 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 5150 2250 50  0001 L CNN "Manufacturer_Name"
-F 7 "STM32L072CBT6" H 5150 2150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "511-STM32L072CBT6" H 5150 2050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L072CBT6?qs=dTJS0cRn7ojAyJ%2FoC1SuOQ%3D%3D" H 5150 1950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "STM32L072CBT6" H 5150 1850 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/stm32l072cbt6/stmicroelectronics?region=nac" H 5150 1750 50  0001 L CNN "Arrow Price/Stock"
-	1    3500 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J2
-U 1 1 6126794E
-P 1250 6500
-F 0 "J2" H 1357 7367 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1357 7276 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1400 6500 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1400 6500 50  0001 C CNN
-	1    1250 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR032
 U 1 1 6126BF8F
 P 9100 6100
@@ -511,28 +481,6 @@ F 3 "~" H 9100 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
-U 1 1 612CB23B
-P 8750 5800
-F 0 "C8" H 8842 5846 50  0000 L CNN
-F 1 "0.1u" H 8842 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8750 5800 50  0001 C CNN
-F 3 "~" H 8750 5800 50  0001 C CNN
-	1    8750 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C10
-U 1 1 612CB830
-P 9450 5800
-F 0 "C10" H 9542 5846 50  0000 L CNN
-F 1 "0.1u" H 9542 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9450 5800 50  0001 C CNN
-F 3 "~" H 9450 5800 50  0001 C CNN
-	1    9450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C11
 U 1 1 612CBEE4
 P 9800 5800
@@ -541,17 +489,6 @@ F 1 "0.1u" H 9892 5755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9800 5800 50  0001 C CNN
 F 3 "~" H 9800 5800 50  0001 C CNN
 	1    9800 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C7
-U 1 1 612CC259
-P 8400 5800
-F 0 "C7" H 8492 5846 50  0000 L CNN
-F 1 "0.1u" H 8492 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8400 5800 50  0001 C CNN
-F 3 "~" H 8400 5800 50  0001 C CNN
-	1    8400 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1439,6 +1376,69 @@ F 3 "~" H 10300 1000 50  0001 C CNN
 $EndComp
 Text Notes 9750 850  0    50   ~ 0
 Board Label
+$Comp
+L Device:C_Small C7
+U 1 1 612CC259
+P 8400 5800
+F 0 "C7" H 8492 5846 50  0000 L CNN
+F 1 "0.1u" H 8492 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8400 5800 50  0001 C CNN
+F 3 "~" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 612CB23B
+P 8750 5800
+F 0 "C8" H 8842 5846 50  0000 L CNN
+F 1 "0.1u" H 8842 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8750 5800 50  0001 C CNN
+F 3 "~" H 8750 5800 50  0001 C CNN
+	1    8750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 612CB830
+P 9450 5800
+F 0 "C10" H 9542 5846 50  0000 L CNN
+F 1 "0.1u" H 9542 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9450 5800 50  0001 C CNN
+F 3 "~" H 9450 5800 50  0001 C CNN
+	1    9450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 6126794E
+P 1250 6500
+F 0 "J2" H 1357 7367 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1357 7276 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1400 6500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1400 6500 50  0001 C CNN
+	1    1250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Rocketboard-Engine:STM32L072CBT6 IC1
+U 1 1 6125D989
+P 3500 2150
+F 0 "IC1" H 5250 2700 50  0000 L CNN
+F 1 "STM32L072CBT6" H 5200 2550 50  0000 L CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5150 2650 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32l072cb.pdf" H 5150 2550 50  0001 L CNN
+F 4 "ARM Microcontrollers - MCU 16/32-BITS MICROS" H 5150 2450 50  0001 L CNN "Description"
+F 5 "1.6" H 5150 2350 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 5150 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "STM32L072CBT6" H 5150 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-STM32L072CBT6" H 5150 2050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L072CBT6?qs=dTJS0cRn7ojAyJ%2FoC1SuOQ%3D%3D" H 5150 1950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "STM32L072CBT6" H 5150 1850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/stm32l072cbt6/stmicroelectronics?region=nac" H 5150 1750 50  0001 L CNN "Arrow Price/Stock"
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
 Wire Notes Line
 	9650 700  9650 1200
 Wire Notes Line
