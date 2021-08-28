@@ -1426,4 +1426,25 @@ F 3 "" H 9150 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 1800 9150 1800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61A6311A
+P 10300 1000
+F 0 "H1" H 10400 1046 50  0000 L CNN
+F 1 "board_logo" H 10400 955 50  0000 L CNN
+F 2 "Rocketboard-Engine:board-title" H 10300 1000 50  0001 C CNN
+F 3 "~" H 10300 1000 50  0001 C CNN
+	1    10300 1000
+	1    0    0    -1  
+$EndComp
+Text Notes 9750 850  0    50   ~ 0
+Board Label
+Wire Notes Line
+	9650 700  9650 1200
+Wire Notes Line
+	9650 1200 10900 1200
+Wire Notes Line
+	10900 1200 10900 700 
+Wire Notes Line
+	10900 700  9650 700 
 $EndSCHEMATC
