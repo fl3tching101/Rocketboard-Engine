@@ -1236,8 +1236,6 @@ Wire Wire Line
 	7750 3300 7800 3300
 Wire Wire Line
 	7750 3400 7800 3400
-Text Notes 2900 2550 0    50   ~ 0
-Can these be \nused as GPIO?
 Wire Notes Line
 	2750 750  2750 4650
 Wire Notes Line
